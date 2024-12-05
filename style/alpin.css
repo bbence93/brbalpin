@@ -1,0 +1,341 @@
+*    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        
+        
+    }
+
+body{
+    background-color: rgb(46, 46, 46)
+}
+#menu {
+    background-color: rgba(46, 46, 46, 0);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items:baseline;
+    z-index: 1;
+    
+    
+    
+    
+    
+}
+
+#menu > a{
+   
+    color:white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    vertical-align:text-bottom;
+    background-color: rgb(46, 46, 46);
+    width:15vw;
+    transition: width 2s ease-out;
+    padding: 10px;
+    text-align: center;
+   
+    
+}
+#menu > .link:hover {
+    background-color: black;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    width:25vw;
+    text-align:center;
+    
+}
+#menu > .active {
+    background-color:rgb(206, 171, 81);
+    color: black;
+}
+#menu > .active:hover {
+    background-color:rgb(206, 171, 81);
+    width:25vw;
+    color:black;
+}
+#menu > .elerh{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: white;
+    flex-grow: 2;
+    text-align: end;
+    margin-right: 3%;
+
+}
+#flexel{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    height:185px;
+    border-bottom: 3px solid rgb(206, 171, 81);
+    z-index: 2;
+    
+}
+#cim {
+    
+    background-color:rgb(46, 46, 46);
+    
+    
+    width:auto;
+    align-self: center;
+    flex:50%;
+    text-align: right;
+    
+    font-weight: bold;
+    font-variant: small-caps;
+    padding-bottom: 0px;
+    margin-top: 60px;
+    
+}
+#br{
+    color:white;
+    font-size: 60px;
+}
+#alp {
+    padding-top: 0px;
+    padding-left: 70px;
+    text-align: right;
+    font-variant: small-caps;
+    font-size:16px;
+    margin-top: 0px;
+    color: white;
+   
+    
+    
+}
+
+#kepheadiv{
+    
+    
+    flex:50%;
+    align-content:stretch;
+}
+#kephead {
+    
+    width: 122px;
+    height: 180px;
+    top: 160 px;
+    animation-name: ereszkeds;
+    animation-duration: 4s;
+    
+    
+    
+}
+#kephead:hover{
+   
+    
+    height:180px;
+    width:122px;
+    top: -200px;
+    animation-name: ereszkeds2;
+    animation-duration: 4s;
+    
+}
+
+    
+
+
+#main{
+    background-color: rgb(46, 46, 46);
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+#main1{
+    background-color: rgb(46, 46, 46);
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+main p{
+    
+    margin: 30px;
+    border-right:3px solid rgb(206, 171, 81);
+    padding:0px 30px;
+    text-align: justify;
+    
+    
+}
+main h2{
+    font-weight: bold;
+    font-size:x-large;
+    margin: 40px;
+    font-variant: small-caps;
+    width: 90%;
+}
+main h3{
+    text-align:right;
+    font-variant: small-caps;
+    width: 95%;
+    
+}
+
+
+
+main a{
+    font-size: larger;
+    color:black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    vertical-align:text-bottom;
+    background-color: rgb(206,171,81);
+    width: 90%;
+    padding:10px;
+    
+    margin:10px 30px 10px 30px;
+    align-self: center;
+    text-align: center;
+    width:80%;
+    justify-content: center;
+}
+#resz{
+    width:70%;
+    flex-direction: row;
+    display: flex;
+    
+}
+#resz1{
+    width:100%;
+    flex-direction: row;
+    display: flex;
+    
+}
+#resz2{
+    width:70%;
+    flex-direction: column;
+    display: flex;
+    
+}
+#hirek{
+    width: 70%;
+}
+#kepj{
+    width: 26%;
+    margin-top: 4%;
+}
+#kepj1{
+    width: 26%;
+    margin-bottom: 5%;
+}
+#kepjobb{
+    width: 100%;
+    height: auto;
+    
+    margin-top: 0%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    
+    border: 2px solid rgb(206, 171, 81);
+    
+}
+
+@keyframes ereszkeds {
+0% {position: absolute; top:-200px;}
+100% {position: absolute; top: 0px;}
+}
+@keyframes ereszkeds2 {
+0% {position: absolute; top:0px;}
+100% {position: absolute; top:-200px}
+}
+@media screen and (max-width: 480px) {
+  .elerh{
+    
+    display: none;
+  }
+  #menu a{
+    width:25%;
+  }
+  #main a{
+    
+    padding:10px;
+    margin: 10px 0px;
+    
+  }
+  #main h2{
+    margin:20px;
+    
+  }
+  
+  
+  #main{
+    flex-direction: column;
+  }
+  #resz{
+    width:100%
+  }
+  #resz2{
+    width:100%;
+  }
+  #kepjobb{
+    width:70%;
+    
+    height: auto;
+    margin-top: 0%;
+    
+  }
+  #kepj{
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+  }
+  #kepj1{
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+  }
+  #resz1{
+    width: 100%;
+    flex-direction: column;
+  }
+  #hirek{
+    width: 100%;
+  }
+  
+}
+
+    
