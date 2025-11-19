@@ -1,9 +1,7 @@
 version: '3'
 services:
   web:
-    image: nginx:alpine
+    build: .
     ports:
       - "8081:80"   # Kívül a 8081-es porton lesz elérhető (hogy ne ütközzön a teszttel)
-    volumes:
-      - ./:/usr/share/nginx/html  # A repo tartalmát bemásolja a szerverbe
     restart: always
